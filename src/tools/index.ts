@@ -1,6 +1,9 @@
 import { tool as base64FileConverter } from './base64-file-converter';
 import { tool as base64StringConverter } from './base64-string-converter';
 import { tool as basicAuthGenerator } from './basic-auth-generator';
+import { tool as flowConverter } from './flow-converter';
+import { tool as forceConverter } from './force-converter';
+import { tool as lengthConverter } from './length-converter';
 
 import { tool as asciiTextDrawer } from './ascii-text-drawer';
 
@@ -160,7 +163,7 @@ export const toolsByCategory: ToolCategory[] = [
   },
   {
     name: 'Measurement',
-    components: [chronometer, temperatureConverter, benchmarkBuilder],
+    components: [chronometer, temperatureConverter, lengthConverter, forceConverter, flowConverter, benchmarkBuilder],
   },
   {
     name: 'Text',

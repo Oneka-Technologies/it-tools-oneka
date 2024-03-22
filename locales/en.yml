@@ -264,6 +264,18 @@ tools:
     title: Temperature converter
     description: Temperature degrees conversions for Kelvin, Celsius, Fahrenheit, Rankine, Delisle, Newton, Réaumur and Rømer.
 
+  length-converter:
+    title: Length converter
+    description: Length conversion for nanometers, millimeters, micrometers, centimeters, meters, kilometers, inches, feet, yards, miles and nautical miles.
+
+  force-converter:
+    title: Force converter
+    description: Force conversion for gram, kilogram, metric ton, US ton, Newton, deciNewton, kiloNewton, MegaNewton, pounds and kip.
+
+  flow-converter:
+    title: Flow converter
+    description: Flow conversion for liters per minute (L/min), liters per hour (L/h), liters per second (L/s), cubic meters per minute (m³/min), cubic meters per hour (m³/h), cubic meters per second (m³/s), gallons per minute (gpm), gallons per hour (gph), cubic feet per minute (cfm) and cubic feet per second (cfs).
+  
   chmod-calculator:
     title: Chmod calculator
     description: Compute your chmod permissions and commands with this online chmod calculator.
