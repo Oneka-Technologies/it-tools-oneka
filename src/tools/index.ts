@@ -87,6 +87,10 @@ import { tool as yamlViewer } from './yaml-viewer';
 
 export const toolsByCategory: ToolCategory[] = [
   {
+    name: 'Measurement',
+    components: [lengthConverter, forceConverter, flowConverter, benchmarkBuilder, chronometer, temperatureConverter],
+  },
+  {
     name: 'Crypto',
     components: [tokenGenerator, hashText, bcrypt, uuidGenerator, ulidGenerator, cypher, bip39, hmacGenerator, rsaKeyPairGenerator, passwordStrengthAnalyser, pdfSignatureChecker],
   },
@@ -160,10 +164,6 @@ export const toolsByCategory: ToolCategory[] = [
   {
     name: 'Math',
     components: [mathEvaluator, etaCalculator, percentageCalculator],
-  },
-  {
-    name: 'Measurement',
-    components: [chronometer, temperatureConverter, lengthConverter, forceConverter, flowConverter, benchmarkBuilder],
   },
   {
     name: 'Text',

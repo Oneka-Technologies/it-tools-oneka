@@ -64,6 +64,19 @@ tools:
     text: Texte
     data: Données
 
+  length-converter:
+    title: Convertisseur de longueur
+    description: Conversion des longueurs en nanomètres, millimètres, micromètres, centimètres, mètres, kilomètres, pouces, pieds, yards, miles et miles nautiques.
+
+  force-converter:
+    title: Convertisseur de force
+    description: Conversion de force pour le gramme, le kilogramme, la tonne métrique, la tonne américaine, le Newton, le déciNewton, le kiloNewton, le MegaNewton, la livre et le kip.
+
+  flow-converter:
+    title: Convertisseur de débit
+    description: Conversion de débit pour les litres par minute (L/min), les litres par heure (L/h), les litres par seconde (L/s), les mètres cubes par minute (m³/min), les mètres cubes par heure (m³/h), les mètres cubes par seconde (m³/s), les gallons par minute (gpm), les gallons par heure (gph), les pieds cubes par minute (cfm) et les pieds cubes par seconde (cfs).
+  
+
   token-generator:
     title: Générateur de token
     description: >-

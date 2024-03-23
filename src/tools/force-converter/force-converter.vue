@@ -116,7 +116,7 @@ function update(key: ForceUnit) {
 <template>
   <div>
     <n-input-group v-for="[key, { title, unit, ref }] in Object.entries(units)" :key="key" mb-3 w-full>
-      <n-input-group-label style="width: 100px">
+      <n-input-group-label style="width: 120px">
         {{ title }}
       </n-input-group-label>
       <n-input-number
