@@ -163,6 +163,7 @@ declare module '@vue/runtime-core' {
     PdfSignatureDetails: typeof import('./src/tools/pdf-signature-checker/components/pdf-signature-details.vue')['default']
     PercentageCalculator: typeof import('./src/tools/percentage-calculator/percentage-calculator.vue')['default']
     PhoneParserAndFormatter: typeof import('./src/tools/phone-parser-and-formatter/phone-parser-and-formatter.vue')['default']
+    PressureConverter: typeof import('./src/tools/pressure-converter/pressure-converter.vue')['default']
     QrCodeGenerator: typeof import('./src/tools/qr-code-generator/qr-code-generator.vue')['default']
     RandomPortGenerator: typeof import('./src/tools/random-port-generator/random-port-generator.vue')['default']
     ResultRow: typeof import('./src/tools/ipv4-range-expander/result-row.vue')['default']

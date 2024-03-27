@@ -1,6 +1,7 @@
 import { tool as base64FileConverter } from './base64-file-converter';
 import { tool as base64StringConverter } from './base64-string-converter';
 import { tool as basicAuthGenerator } from './basic-auth-generator';
+import { tool as pressureConverter } from './pressure-converter';
 import { tool as flowConverter } from './flow-converter';
 import { tool as forceConverter } from './force-converter';
 import { tool as lengthConverter } from './length-converter';
@@ -88,7 +89,7 @@ import { tool as yamlViewer } from './yaml-viewer';
 export const toolsByCategory: ToolCategory[] = [
   {
     name: 'Measurement',
-    components: [lengthConverter, forceConverter, flowConverter, benchmarkBuilder, chronometer, temperatureConverter],
+    components: [lengthConverter, forceConverter, flowConverter, pressureConverter, benchmarkBuilder, chronometer, temperatureConverter],
   },
   {
     name: 'Crypto',
